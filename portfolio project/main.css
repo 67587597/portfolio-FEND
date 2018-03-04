@@ -1,0 +1,133 @@
+/*
+add properties to whole body
+*/
+body {
+  font: 16px lighter "Lato", sans-serif;
+  max-width: 1000px;
+  display: grid;
+  color: #2d3c49;
+  text-align: center;
+}
+
+
+/*
+assigned max-width to 100% to responsive purpose
+*/
+article {
+  max-width: 100%;
+  padding-top: 2em;
+}
+
+
+img {
+  width: 288px;
+}
+
+
+/*
+add margin to div
+*/
+div {
+  position: relative;
+  margin: 2em 1em auto 7em;
+}
+
+
+/*
+add properties to hr, using something different with box-shadow
+*/
+div hr {
+  width: 100%;
+  height: 2em;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #2d3c49 inset;
+}
+
+
+h3 {
+  font-size: 28px;
+}
+
+
+a:link {
+  color: #2d3c49;
+  text-decoration: none;
+}
+
+
+/*
+to change the color of link when puting mouse on it
+*/
+a:hover {
+  color: #7d97ad;
+}
+
+h1
+{
+  font-size: 46px;
+}
+
+
+/*header*/
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 1px 0.3px;
+  float: left;
+}
+
+.main-title {
+  text-align: right;
+  float: right;
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.title {
+  font-size: 0.8em;
+  text-align: right;
+  font-weight: normal;
+}
+
+
+/*main*/
+.section1 {
+  width: 890px;
+  height: 300px;
+  max-width: 100%;
+}
+
+
+/*footer*/
+.subtitle {
+  color: #7d97ad;
+  font-size: 36px;
+  text-align: left;
+}
+
+/*
+using calc to assigned equal width for each div
+*/
+.section2-img {
+  margin: 5px 10px auto 0;
+  float: left;
+  padding-bottom: 5em;
+  width: calc((100% - 20px)/3);
+  flex-grow: 3;
+}
+.grid-container{
+  display: grid;
+}
+.grid-container2{
+  flex-grow: 4;
+}
+.grid-container3{
+  grid-column-gap: 10px;
+}
+/*
+override margin-right to 0 to avoid unnecessary spaces
+*/
+#right-img {
+  margin-right: 0;
+}
